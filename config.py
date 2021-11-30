@@ -26,8 +26,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nhey,iam file sharing bot managed by @keralamoviehub 
-@keralamoviehub2.0 To get movie update join our channel @newmovieupdates12")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\,iam file sharing bot managed by @keralamoviehub , @keralamoviehub2.0 ..To get movie update join our channel @newmovieupdates12")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
